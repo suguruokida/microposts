@@ -1,0 +1,4 @@
+<h1><%= @title %></h1>
+<ol><%= render @users %></ol>
+<%= link_to "followingsページ", followings_user_path(@user) %>
+<%= link_to "followersページ", followers_user_path(@user) %>
